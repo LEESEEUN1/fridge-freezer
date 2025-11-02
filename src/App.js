@@ -10,6 +10,9 @@ function App() {
         <button onClick={() => {
           console.log('Add Item');
         }}>Add Item</button>
+        <button onClick={() => {
+          console.log('Remove Item');
+        }}>Remove Item</button>
       </header>
     </div>
   );
