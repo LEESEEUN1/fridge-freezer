@@ -13,6 +13,9 @@ function App() {
         <button onClick={() => {
           console.log('Remove Item');
         }}>Remove Item</button>
+        <button onClick={() => {
+          console.log('Update Item');
+        }}>Update Item</button>
       </header>
     </div>
   );
