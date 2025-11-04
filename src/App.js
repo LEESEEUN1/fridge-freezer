@@ -16,6 +16,9 @@ function App() {
         <button onClick={() => {
           console.log('Update Item');
         }}>Update Item</button>
+        <button onClick={() => {
+          console.log('Search Item');
+        }}>Search Item</button>
       </header>
     </div>
   );
