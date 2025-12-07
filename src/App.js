@@ -18,6 +18,18 @@ function App() {
         <button onClick={() => {
           console.log('Update Item');
         }}>Update Item</button>
+        <button onClick={() => {
+          console.log('Search Item');
+        }}>Search Item</button>
+        <button onClick={() => {
+          console.log('Sort Item');
+        }}>Sort Item</button>
+        <button onClick={() => {
+          console.log('Filter Item');
+        }}>Filter Item</button>
+        <button onClick={() => {
+          console.log('Clear Item');
+        }}>Clear Item</button>
       </header>
     </div>
   );
