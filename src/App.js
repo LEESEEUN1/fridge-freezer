@@ -7,6 +7,8 @@ function App() {
       <header className="App-header">
         <h1>Fridge Freezer</h1>
         <p>냉장고 관리 앱에 오신 것을 환영합니다!</p>
+        <input type="text" placeholder="Item Name" />
+        <div>test 문구 추가</div>
         <button onClick={() => {
           console.log('Add Item');
         }}>Add Item</button>
